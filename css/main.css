@@ -1,0 +1,20 @@
+body{
+	margin: 0;
+	padding: 0;
+	color: #666;
+	background: #888;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+}
+h2,h3{
+	color: #888;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+a{
+	color: #722872;
+}
+a:hover, a:focus{
+	color: #592059;
+}
