@@ -12,9 +12,3 @@ h2,h3{
 	text-align: center;
 	text-transform: uppercase;
 }
-a{
-	color: #722872;
-}
-a:hover, a:focus{
-	color: #592059;
-}
