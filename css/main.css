@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
 	margin: 0;
 	padding: 0;
@@ -11,4 +12,191 @@ h2,h3{
 	font-weight: bold;
 	text-align: center;
 	text-transform: uppercase;
+=======
+body {
+  margin: 0;
+  padding: 0;
+  color: #666;
+  background: #888;
+  font-family: $helvetica;
+  font-size: 20px;
+}
+h2,
+h3 {
+  color: #888;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+a {
+  color: #722872;
+}
+a:hover,
+a:focus {
+  color: #592059;
+}
+#babber .container,
+main header,
+#portfolio .grid,
+#contact>div,
+footer #footer-above {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -o-box-orient: horizontal;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  -o-box-lines: multiple;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: distribute;
+  -moz-box-pack: distribute;
+  -o-box-pack: distribute;
+  -ms-flex-pack: distribute;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-box-align: start;
+  -moz-box-align: start;
+  -o-box-align: start;
+  -ms-flex-align: start;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+#banner {
+  height: 80px;
+  -webkit-box-shadow: 0px 2px 2px 1px rgba(0,0,0,0.2);
+  box-shadow: 0px 2px 2px 1px rgba(0,0,0,0.2);
+  border-color: #ccc;
+}
+#banner .container {
+  width: 95%;
+  max-width: 1024px;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -o-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+#banner .container::before,
+#banner .container::after {
+  display: none;
+}
+#banner img {
+  width: 175px;
+  height: 19px;
+  margin: 15px 0;
+}
+nav {
+  font-size: 13px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+  background: #722872;
+}
+@media (max-width: 768px) {
+  nav {
+    padding: 5px;
+    text-align: center;
+    margin: 0 auto;
+    width: 120%;
+  }
+  nav .active a {
+    color: #722872;
+    background: #bbb;
+    -webkit-box-shadow: 0px 2px 2px 1px rgba(0,0,0,0.1);
+    box-shadow: 0px 2px 2px 1px rgba(0,0,0,0.1);
+  }
+}
+.nav>li {
+  height: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-box;
+  display: inline-flex;
+}
+.nav>li a {
+  color: #fff;
+  padding: 10px 20px;
+}
+.nav>li a:hover {
+  background: #bbb;
+  -webkit-box-shadow: 0px 2px 2px 1px rgba(0,0,0,0.1);
+  box-shadow: 0px 2px 2px 1px rgba(0,0,0,0.1);
+}
+.navbar-toggle {
+  margin-right: 0;
+}
+#top {
+  height: 80px;
+  display: block;
+}
+main >*:not(.scroll-top) {
+  max-width: 1024px;
+  margin: 0 auto;
+  -webkit-box-shadow: box-shadow 0px 2px 2px 1px rgba(0,0,0,0.2);
+  box-shadow: box-shadow 0px 2px 2px 1px rgba(0,0,0,0.2);
+}
+main header {
+  background: #aaa;
+  color: #fff;
+  text-align: right;
+  padding: 70px 10px 50px;
+  -webkit-box-align: end;
+  -moz-box-align: end;
+  -o-box-align: end;
+  -ms-flex-align: end;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+  -ms-flex-line-pack: distribute;
+  -webkit-align-content: space-around;
+  align-content: space-around;
+}
+@media (min-width: 1023px) {
+  main header {
+    padding: 50px 30px;
+  }
+}
+main header img {
+  border-radius: 50%;
+  margin: 30px 0 10px;
+  max-width: 80%;
+  height: auto;
+  width: 250px;
+}
+main header .intro-text {
+  max-width: 675px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+@media (min-width: 1023px) {
+  main header .intro-text {
+    text-align: right;
+    width: 610px;
+  }
+>>>>>>> cssport
 }

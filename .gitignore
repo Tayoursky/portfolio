@@ -1,5 +1,8 @@
 /css/*
 /fonts/*
+/node_modules/*
 /js/*
 !/css/main.css
 !index.html
+gulpfile.js
+package.json
