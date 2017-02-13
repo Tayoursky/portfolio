@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Portfolio</title>
+    <title>Portfolio Boris Tayoursky</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="font_awesome/css/font_awesome.min.css">
+    <!-- Main styles -->
     <link href="css/main.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -22,14 +25,15 @@
     <header id="banner" class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <a href="#top" class="scrollable">
-          <img src="img/logo.png" alt="codeboris.ru" title="web programmer">
+          <img src="https://www.codeboris.ru/img/logo.png" alt="Web Developer">
+          <!-- <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://ww.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 512 512"><g id="icomoon-ignore"></g><path d="M256 16l-256 256 48 48 48-48v208h128v-96h64v96h128v-208l48 48 48-48-256-256zM256 224c-17.673 0-32-14.327-32-32s14.327-32 32-32c17.673 0 32 14.327 32 32s-14.327 32-32 32z"></path></svg> -->
         </a>
-        <botton class="navbar-toggle collapsed" type="button"," data-toggle="collapse"," data-target="#navbar"," aria-expanded="false">
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
-        </botton>
+        </button>
         <nav id="navbar" class="navbar-collapse collapse" role="navigation">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#top" class="scrollable">About</a></li>
@@ -38,9 +42,9 @@
           </ul>
         </nav>
       </div>
-    </header>
+    </header>    
   <!-- end header -->
-    <a href="" id="top" name="home"></a>
+    <a href="#" id="top" name="home"></a>
     <main>
       <header>
         <div class="intro-text">
@@ -52,86 +56,102 @@
             Web Developer
           </span>
         </div>
-        <img src="#" alt="foto Boris Tayoursky">
+        <img src="https://www.codeboris.ru/img/foto.jpg" alt="foto Boris Tayoursky">
       </header>
        <!-- Gallery Grid Section -->
       <section id="portfolio">
+      <div class="empty"></div>
         <h2>Portfolio</h2>
         <hr class="star-dark">
         <ul class="grid">
-          <li><img src="#" alt=""></li>
-          <li><img src="#" alt=""></li>
-          <li><img src="#" alt=""></li>
-          <li><img src="#" alt=""></li>
-          <li><img src="#" alt=""></li>
-          <li><img src="#" alt=""></li>
+          <li>
+            <a href="http://www.dale.codeboris.ru" target="_blank"><img src="img/work/dale.jpg" alt=""></a>
+          </li>
+          <li>
+            <a href="http://www.dale.codeboris.ru" target="_blank"><img src="img/work/dale.jpg" alt=""></a>
+          </li>
+          <li>
+            <a href="http://www.dale.codeboris.ru" target="_blank"><img src="img/work/dale.jpg" alt=""></a>
+          </li>
+          <li>
+            <a href="http://www.dale.codeboris.ru" target="_blank"><img src="img/work/dale.jpg" alt=""></a>
+          </li>
+          <li>
+            <a href="http://www.dale.codeboris.ru" target="_blank"><img src="img/work/dale.jpg" alt=""></a>
+          </li>
+          <li>
+            <a href="http://www.dale.codeboris.ru" target="_blank"><img src="img/work/dale.jpg" alt=""></a>
+          </li>
         </ul>
       </section>
       <!-- Contact Section  -->
       <section id="contact">
+      <div class="empty"></div>
         <h2>Contact Me</h2>
         <hr class="star-dark">
         <div>
           <form action="#" id="contactForm" novalidate="">
             <div class="form-item">
-              <label for="">Name</label>
-              <input type="text"," id="name" placeholder="Name"," required="">
+              <label for="“name”">Name</label>
+              <input id="name" type="text" placeholder="Name" required="">
             </div>
             <div class="form-item">
-              <label for="">Email Address</label>
-              <input type="email"," id="email" placeholder="Email Address"," required="">
+              <label for="“email”">Email Address</label>
+              <input id="email" type="email" placeholder="Email Address" required>
             </div>
             <div class="form-item">
-              <label for="">Phone Number</label>
-              <input type="tel"," id="phone" placeholder="Phone Number"," required="">
+              <label for="“phone”">Phone Number</label>
+              <input id="phone" type="tel" placeholder="Phone Number" required>
             </div>
             <div class="form-item">
-              <label for="">Message</label>
-              <textarea rows="5"," id="message" placeholder="Message"," required="">
-              </textarea>
+              <label for="“message”">Message</label>
+              <textarea id="message" rows="5" placeholder="Message" required></textarea>
             </div>
             <br>
             <button type="submit">Send</button>
           </form>
           <div>
             <p>
-              Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume... just feel free to drop me a line anytime.
+            Sending messages through the form is not working. Click social links to find me.
+              <!-- Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume... just feel free to drop me a line anytime. -->
             </p>
             <p>
-              I promise to reply
+              <!-- I promise to reply -->
             </p>
             <p>
-              Note: No spam :)
+              <!-- Note: No spam :) -->
             </p>
           </div>
         </div>
       </section>
-       <!-- Scroll to Top Button (Only supposed to be visible on small and small screen sizes) -->
       <div class="scroll-top">
         <a href="#top" class="button scrollable">
           <i class="fa fa-chevron-up"></i>
         </a>
       </div>
+      <!-- Scroll to Top Button (Only supposed to be visible on small and small screen sizes) -->
     </main>
     <!-- Footer -->
     <footer>
       <div id="footer-above">
         <div>
           <h3>About this page</h3>
-          <p>
-            <i></i>
-            <i></i>
+          <p>Made with         
+            <i class="fa fa-fw fa-coffee"></i>
+            and 
+            <i class="fa fa-fw fa-music"></i>
             <br>
-            <a href="#">Boris Tayoursky</a>
+            by 
+            <a href="https://www.codeboris.ru/">Boris Tayoursky</a>
           </p>
         </div>
         <div>
           <h3>Around the Web</h3>
           <ul>
-            <li><a href="#" class="button social"><i class="fa fa-fw fa-linkedin"></i></a></li>
-            <li><a href="#" class="button social"><i class="fa fa-fw fa-github"></i></a></li>
-            <li><a href="#" class="button social"><i class="fa fa-fw fa-twitter"></i></a></li>
-            <li><a href="#" class="button social"><i class="fa fa-fw fa-flickr"></i></a></li>
+            <li><a href="https://github.com/Tayoursky" class="button social" target="_blank"><i class="fa fa-fw fa-github"></i></a></li>
+            <li><a href="https://twitter.com/tayoursky" class="button social" target="_blank"><i class="fa fa-fw fa-twitter"></i></a></li>
+            <li><a href="https://vk.com/tayoursky" class="button social" target="_blank"><i class="fa fa-fw fa-vk"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCrmySOCA38gcZvqyojFVZxw" class="button social" target="_blank"><i class="fa fa-fw fa-youtube"></i></a></li>
           </ul>
         </div>
       </div>
@@ -145,9 +165,14 @@
     </footer>
 
 
+    
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/jquery_easing.js"></script>
+    
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/code.js"></script>
   </body>
 </html>

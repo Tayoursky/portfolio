@@ -1,8 +1,11 @@
 /css/*
+/font_awesome/*
 /fonts/*
 /node_modules/*
 /js/*
+/styl/*
 !/css/main.css
 !index.html
+.htaccess
 gulpfile.js
 package.json
