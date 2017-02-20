@@ -90,7 +90,7 @@
         <h2>Contact Me</h2>
         <hr class="star-dark">
         <div>
-          <form action="mail.php" id="contactForm" novalidate="">
+          <form action="mail.php" method="post" id="contactForm" novalidate="">
             <div class="form-item">
               <label for="“name”">Name</label>
               <input id="name" type="text" name="name" placeholder="Name" required="">
@@ -105,7 +105,7 @@
             </div> -->
             <div class="form-item">
               <label for="“message”">Message</label>
-              <textarea id="message" rows="5" placeholder="Message" required></textarea>
+              <textarea id="message" rows="5" placeholder="Message" name="text" required></textarea>
             </div>
             <br>
             <button type="submit">Send</button>
